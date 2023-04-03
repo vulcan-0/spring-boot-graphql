@@ -1,4 +1,4 @@
-package org.vc121.light.graphql.repository;
+package org.vc121.light.graphql.first.repository;
 
 import java.util.Arrays;
 import java.util.List;

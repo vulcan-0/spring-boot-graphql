@@ -1,11 +1,11 @@
-package org.vc121.light.graphql.controller;
+package org.vc121.light.graphql.first.controller;
 
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;
 import org.springframework.stereotype.Controller;
-import org.vc121.light.graphql.repository.Author;
-import org.vc121.light.graphql.repository.Book;
+import org.vc121.light.graphql.first.repository.Author;
+import org.vc121.light.graphql.first.repository.Book;
 
 /**
  * @author lxc

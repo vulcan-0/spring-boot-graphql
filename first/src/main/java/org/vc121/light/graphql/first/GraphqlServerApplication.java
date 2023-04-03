@@ -1,4 +1,4 @@
-package org.vc121.light.graphql;
+package org.vc121.light.graphql.first;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
