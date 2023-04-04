@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2023/04/01
  */
 @SpringBootApplication
-public class GraphqlServerApplication {
+public class FirstGraphqlServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GraphqlServerApplication.class);
+        SpringApplication.run(FirstGraphqlServerApplication.class);
     }
 
 }
