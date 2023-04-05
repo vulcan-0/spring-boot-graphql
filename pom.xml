@@ -3,13 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.4</version>
-        <relativePath/>
-    </parent>
-
     <groupId>org.vc121.light</groupId>
     <artifactId>spring-boot-graphql</artifactId>
     <packaging>pom</packaging>
@@ -18,9 +11,19 @@
     <name>spring-boot-graphql</name>
     <description>Spring Boot Graphql</description>
 
+    <properties>
+        <java.version>17</java.version>
+        <resource.delimiter>@</resource.delimiter>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
     <modules>
         <module>first</module>
         <module>chapter1</module>
+        <module>chapter2</module>
     </modules>
 
 </project>

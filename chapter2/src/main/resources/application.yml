@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-boot-graphql-chapter2
+
+server:
+  http2:
+    enabled: true

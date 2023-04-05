@@ -10,15 +10,15 @@
     </parent>
 
     <groupId>org.vc121.light</groupId>
-    <artifactId>spring-boot-graphql-chapter1</artifactId>
+    <artifactId>spring-boot-graphql-chapter2</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
-    <name>spring-boot-graphql-chapter1</name>
-    <description>Spring Boot Graphql Chapter1</description>
+    <name>spring-boot-graphql-chapter2</name>
+    <description>Spring Boot Graphql Chapter2</description>
 
     <properties>
-        <spring-boot.version>3.0.4</spring-boot.version>
+        <spring-boot.version>2.4.5</spring-boot.version>
     </properties>
 
     <dependencyManagement>
@@ -35,18 +35,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.graphql-java-kickstart</groupId>
+            <artifactId>graphql-spring-boot-starter</artifactId>
+            <version>11.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.graphql-java-kickstart</groupId>
-            <artifactId>graphql-spring-boot-starter</artifactId>
-            <version>14.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.tailrocks.graphql</groupId>
-            <artifactId>graphql-datetime-spring-boot-starter</artifactId>
-            <version>6.0.0</version>
+            <artifactId>playground-spring-boot-starter</artifactId>
+            <version>11.1.0</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
