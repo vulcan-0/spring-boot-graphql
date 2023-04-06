@@ -24,6 +24,7 @@
         <module>first</module>
         <module>chapter1</module>
         <module>chapter2</module>
+        <module>chapter3</module>
     </modules>
 
 </project>
