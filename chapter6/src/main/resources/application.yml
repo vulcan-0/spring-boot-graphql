@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-boot-graphql-chapter5
+    name: spring-boot-graphql-chapter6
 
 server:
   http2:
@@ -17,3 +17,6 @@ graphql:
         query: classpath:playground/bank_account.graphqls
         variables: classpath:playground/bank_account_variables.json
     # enabled: false
+
+# voyager:
+  # enabled: false

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-boot-graphql-chapter3
+    name: spring-boot-graphql-chapter4
 
 server:
   http2:
