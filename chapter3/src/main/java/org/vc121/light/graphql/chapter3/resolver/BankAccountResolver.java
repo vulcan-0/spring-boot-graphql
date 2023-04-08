@@ -3,9 +3,9 @@ package org.vc121.light.graphql.chapter3.resolver;
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.vc121.light.graphql.chapter3.bank.BankAccount;
-import org.vc121.light.graphql.chapter3.bank.Client;
-import org.vc121.light.graphql.chapter3.bank.Currency;
+import org.vc121.light.graphql.chapter3.domain.bank.BankAccount;
+import org.vc121.light.graphql.chapter3.domain.bank.Client;
+import org.vc121.light.graphql.chapter3.domain.bank.Currency;
 
 import java.util.List;
 import java.util.UUID;

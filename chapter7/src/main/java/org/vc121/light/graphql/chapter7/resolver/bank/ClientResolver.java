@@ -3,8 +3,8 @@ package org.vc121.light.graphql.chapter7.resolver.bank;
 import graphql.kickstart.tools.GraphQLResolver;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.vc121.light.graphql.chapter7.bank.BankAccount;
-import org.vc121.light.graphql.chapter7.bank.Client;
+import org.vc121.light.graphql.chapter7.domain.bank.BankAccount;
+import org.vc121.light.graphql.chapter7.domain.bank.Client;
 
 import java.util.UUID;
 

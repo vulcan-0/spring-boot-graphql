@@ -1,4 +1,4 @@
-package org.vc121.light.graphql.chapter7.bank;
+package org.vc121.light.graphql.chapter6.domain.bank;
 
 import lombok.Builder;
 import lombok.Value;

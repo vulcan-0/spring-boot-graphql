@@ -1,4 +1,4 @@
-package org.vc121.light.graphql.chapter3.bank;
+package org.vc121.light.graphql.chapter7.domain.bank;
 
 /**
  * @author lxc
