@@ -1,0 +1,29 @@
+package org.vc121.light.graphql.chapter7.resolver.bank;
+
+import graphql.kickstart.tools.GraphQLResolver;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
+import org.vc121.light.graphql.chapter7.bank.BankAccount;
+import org.vc121.light.graphql.chapter7.bank.Client;
+
+import java.util.UUID;
+
+/**
+ * @author lxc
+ * @date 2023/04/08
+ */
+@Slf4j
+@Component
+public class ClientResolver implements GraphQLResolver<BankAccount> {
+
+    public Client client(BankAccount bankAccount) {
+        log.info("Requesting client data for bank account id {}", bankAccount.getId());
+
+        return Client.builder()
+                .id(UUID.randomUUID())
+                .firstName("Philip")
+                .lastName("Starritt")
+                .build();
+    }
+
+}
