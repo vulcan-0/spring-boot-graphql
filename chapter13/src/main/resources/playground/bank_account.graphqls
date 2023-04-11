@@ -1,0 +1,21 @@
+# Gets Philip's Bank account
+query GET_BANK_ACCOUNT($id: ID) {
+    bankAccount(id: $id) {
+        currency
+        client {
+            id
+            firstName
+            lastName
+        }
+        assets {
+            id
+        }
+    }
+}
+
+mutation CREATE_BANK_ACCOUNT {
+    createBankAccount(input: { firstName: "philip" }) {
+        id
+        currency
+    }
+}
