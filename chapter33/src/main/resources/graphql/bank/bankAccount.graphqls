@@ -1,0 +1,9 @@
+type BankAccount {
+    id: ID!
+    client: Client
+    currency: Currency!
+    assets: [Asset]
+    createOn: Date
+    createAt: DateTime
+    balance: Float
+}
